@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>COURSERA</title>
+    <style>
+        body {
+            margin: 0px;
+            background-image: url('backgroundimg.jpg');
+        }
+
+        .h1 {
+            color: #f0f8ff;
+            margin-bottom: 0;
+            margin-top: 5px;
+            margin-right: 10px;
+            float: left;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #2c3033;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            text-align: center;
+            color: #f0f8ff;
+            padding: 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #32cd32;
+        }
+
+        .active {
+            background-color: rgb(50, 205, 50);
+        }
+
+        .parent {
+            background-color: #ffffff;
+            margin-top: 90px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: auto;
+            width: 50%;
+            padding: 20px;
+        }
+
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=text]:focus,
+        input[type=password]:focus {
+            background-color: #ccc;
+        }
+
+        input[type=search] {
+            padding: 8px;
+            margin-top: 8px;
+            margin-left: 8px;
+            background-image: url(search.png);
+            background-position: 2px 2px;
+            background-repeat: no-repeat;
+            background-size: 26px;
+            text-indent: 19px;
+        }
+
+        input[type=search]:focus {
+            background-color: #ccc;
+        }
+
+        button {
+            background-color: #15df41;
+            color: #ffffff;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            width: 100%;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0000ff;
+            opacity: 0, 8;
+        }
+
+        img {
+            display: block;
+            margin: auto;
+        }
+
+        p {
+            text-align: center;
+        }
+    </style>
+    <script>
+     //   alert("sir t7wa")
+    </script>
+</head>
+
+<body>
+
+    <h1 class="h1">COURSERA </h1>
+    <audio autoplay loop >
+        <source src="charlotte-cardin-main-girl-lyrics.mp3" type="audio/mpeg">
+    </audio>
+    <ul>
+        <li><a href="#Home"> Home</a></li>
+        <li><a href="#News"> News</a></li>
+        <li><a href="#Contact">Contact</a> </li>
+        <li><a href="#About"> About</a></li>
+        <input type="search" name="search1" id="search1" size="70" placeholder="search...">
+        <li style="float: right;"><a href="#Sign up">Sign up</a></li>
+        <li style="float: right;"><a class="active" href="#Log in">Log in</a></li>
+    </ul>
+    <div class="parent">
+        <form>
+            <fieldset>
+
+            <img src="books.png" alt="books">
+
+            <label for="uname"><b> Username :</b></label>
+            <input type="text" placeholder="Enter Username" id="uname" name="uname"><br>
+
+            <label for="psw"><b> Password :</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <label>
+                <input type="checkbox" name="remembre"><b> Remembre me</b>
+            </label>
+
+            <a href="#forgot password" style="float: right;">forgot password ?</a>
+
+            <BUtton class="log" type="submit">Login</BUtton>
+            <p>don't have an acount ? <a href="#Sign up">Sign up</a> </p>
+           </fieldset>
+        </form>
+    </div>
+
+</body>
+
+</html>
